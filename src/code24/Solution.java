@@ -15,14 +15,12 @@ package code24;
  */
 public class Solution {
     public ListNode swapPairs(ListNode head) {
-//        ListNode res = null;
 //        while (null != head){
 //            ListNode next = head.next;
 //            head.next.next = head;
-//            head.next = temp.next;
-//            res = head;
+//            head.next = next.next;
 //        }
-//        return res;
+//        return head;
         if(head == null || head.next == null){
             return head;
         }
